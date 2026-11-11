@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 150" width="432" height="150" role="img" aria-label="floating-point-unit-verilog: Somador e subtrator de ponto flutuante IEEE 754 de 32 bits com testbench.">
+<defs>
+  <linearGradient id="bgfpu" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#111c33"/><stop offset="1" stop-color="#0b1220"/>
+  </linearGradient>
+  <pattern id="gridfpu" width="22" height="22" patternUnits="userSpaceOnUse">
+    <path d="M22 0H0V22" fill="none" stroke="#1e2b47" stroke-width="0.6"/>
+  </pattern>
+</defs>
+<rect width="432" height="150" rx="12" fill="url(#bgfpu)"/>
+<rect x="0.5" y="0.5" width="431" height="149" rx="11.5" fill="none" stroke="#1e2b47"/>
+<rect x="0" y="22" width="3" height="26" rx="1.5" fill="#f2b84b"/>
+<text x="24" y="42" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15.5" font-weight="700" fill="#e8edf7">floating-point-unit-verilog</text>
+<path d="M392 34 l10 0 M396 28 l6 6 -6 6" fill="none" stroke="#5ad1e6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="24" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#8fa0bf">Somador e subtrator de ponto flutuante IEEE 754 de 32</text><text x="24" y="90" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#8fa0bf">bits com testbench.</text>
+<circle cx="29" cy="126" r="5" fill="#f0a36b"/><text x="40" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#e8edf7">Verilog</text><rect x="105" y="115" width="63" height="22" rx="11" fill="none" stroke="#1e2b47"/><text x="136" y="130" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8fa0bf">ieee754</text><rect x="173.9" y="115" width="43" height="22" rx="11" fill="none" stroke="#1e2b47"/><text x="195" y="130" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8fa0bf">fpga</text>
+</svg>

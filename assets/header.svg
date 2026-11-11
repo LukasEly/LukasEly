@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" role="img" aria-labelledby="t d">
+<title id="t">Lukas Ely</title>
+<desc id="d">Engenharia de Computação na PUCRS. Sistemas embarcados, hardware digital e IoT.</desc>
+<defs>
+  <linearGradient id="bgh" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#111c33"/><stop offset="1" stop-color="#0b1220"/>
+  </linearGradient>
+  <pattern id="gridh" width="22" height="22" patternUnits="userSpaceOnUse">
+    <path d="M22 0H0V22" fill="none" stroke="#1e2b47" stroke-width="0.6"/>
+  </pattern>
+</defs>
+<style>
+  .trace { stroke-dasharray: 2400; animation: draw 3.2s ease-out both; }
+  .blink { animation: blink 1.6s steps(2) infinite; }
+  @keyframes draw { from { stroke-dashoffset: 2400; } to { stroke-dashoffset: 0; } }
+  @keyframes blink { 50% { opacity: 0.15; } }
+  @media (prefers-reduced-motion: reduce) { .trace { animation: none; } .blink { animation: none; } }
+</style>
+<rect width="880" height="250" rx="16" fill="url(#bgh)"/>
+<rect width="880" height="250" rx="16" fill="url(#gridh)" opacity="0.55"/>
+<rect x="0.5" y="0.5" width="879" height="249" rx="15.5" fill="none" stroke="#1e2b47"/>
+
+<text x="40" y="58" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#f2b84b" letter-spacing="0.5">// github.com/LukasEly</text>
+<text x="38" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#e8edf7" letter-spacing="-1.5">Lukas Ely</text>
+<text x="40" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="17" fill="#e8edf7" opacity="0.92">Engenharia de Computação · PUCRS</text>
+<text x="40" y="175" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8fa0bf">sistemas embarcados  /  hardware digital  /  IoT</text>
+
+<!-- CI estilizado -->
+<g>
+  <path d="M660 96 H694 M660 120 H694 M826 96 H852 M826 120 H852" stroke="#5ad1e6" stroke-width="1.4" opacity="0.7"/>
+  <circle cx="660" cy="96" r="2.6" fill="#5ad1e6"/><circle cx="660" cy="120" r="2.6" fill="#5ad1e6"/>
+  <circle cx="852" cy="96" r="2.6" fill="#5ad1e6"/><circle cx="852" cy="120" r="2.6" fill="#5ad1e6"/>
+  <rect x="706" y="52" width="8" height="12" rx="1.5" fill="#8fa0bf"/><rect x="706" y="150" width="8" height="12" rx="1.5" fill="#8fa0bf"/><rect x="728" y="52" width="8" height="12" rx="1.5" fill="#8fa0bf"/><rect x="728" y="150" width="8" height="12" rx="1.5" fill="#8fa0bf"/><rect x="750" y="52" width="8" height="12" rx="1.5" fill="#8fa0bf"/><rect x="750" y="150" width="8" height="12" rx="1.5" fill="#8fa0bf"/><rect x="772" y="52" width="8" height="12" rx="1.5" fill="#8fa0bf"/><rect x="772" y="150" width="8" height="12" rx="1.5" fill="#8fa0bf"/><rect x="794" y="52" width="8" height="12" rx="1.5" fill="#8fa0bf"/><rect x="794" y="150" width="8" height="12" rx="1.5" fill="#8fa0bf"/>
+  <rect x="694" y="62" width="132" height="90" rx="8" fill="#0b1220" stroke="#8fa0bf" stroke-width="1.4"/>
+  <circle cx="708" cy="76" r="3" fill="none" stroke="#8fa0bf" stroke-width="1.2"/>
+  <text x="760" y="104" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#e8edf7">LE-2026</text>
+  <text x="760" y="124" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#8fa0bf">RISC-V · FPGA</text>
+  <circle class="blink" cx="812" cy="138" r="3.2" fill="#f2b84b"/>
+</g>
+
+<!-- sinal digital -->
+<text x="40" y="232" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#8fa0bf">CLK</text>
+<path d="M40 212 H840" stroke="#1e2b47" stroke-width="1" stroke-dasharray="2 5"/>
+<path class="trace" d="M40 212 V194 H74 V212 H108 V194 H142 H176 V212 H210 V194 H244 V212 H278 H312 V194 H346 V212 H380 V194 H414 H448 H482 V212 H516 V194 H550 V212 H584 H618 V194 H652 H686 V212 H720 V194 H754 V212 H788 V194 H822 H840" fill="none" stroke="#f2b84b" stroke-width="2" stroke-linejoin="round"/>
+</svg>

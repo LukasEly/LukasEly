@@ -1,29 +1,30 @@
-## Olá, eu sou o Lukas Ely
+<a href="https://github.com/LukasEly">
+  <img src="assets/header.svg" width="100%" alt="Lukas Ely. Engenharia de Computação na PUCRS. Sistemas embarcados, hardware digital e IoT.">
+</a>
 
-Estudante de **Engenharia de Computação na PUCRS**, com formatura prevista para dezembro de 2026, e estagiário de **Engenharia de Produto na Midea Carrier**, em Canoas (RS).
+<br>
 
-Gosto de trabalhar onde software e hardware se encontram:
+Estudante de **Engenharia de Computação na PUCRS**, com formatura em dezembro de 2026, e estagiário de **Engenharia de Produto na Midea Carrier**, em Canoas (RS). Gosto de trabalhar onde software e hardware se encontram: firmware em C, RTOS e drivers de um lado, VHDL, Verilog e FPGA do outro.
 
-- **Sistemas embarcados:** firmware em C, RTOS, drivers e periféricos
-- **Hardware digital:** VHDL e Verilog, FPGA, processadores e DFT
-- **IoT e automação:** sensores, protocolos seriais e MQTT
+## Projetos em destaque
 
-### Tecnologias
+<p>
+  <a href="https://github.com/LukasEly/hf-risc-vga-breakout"><img src="assets/card-breakout.svg" width="49%" alt="hf-risc-vga-breakout: jogo Breakout com saída VGA num SoC RISC-V em FPGA"></a>
+  <a href="https://github.com/LukasEly/mips-multicycle-cache-vhdl"><img src="assets/card-mips.svg" width="49%" alt="mips-multicycle-cache-vhdl: MIPS multiciclo em VHDL com cache L1"></a>
+</p>
+<p>
+  <a href="https://github.com/LukasEly/stm32-dht-mqtt-gateway"><img src="assets/card-mqtt.svg" width="49%" alt="stm32-dht-mqtt-gateway: nó IoT no STM32F4 com sensores e MQTT"></a>
+  <a href="https://github.com/LukasEly/stm32-serial-protocol-coos"><img src="assets/card-serial.svg" width="49%" alt="stm32-serial-protocol-coos: protocolo serial com framing sob CoOS"></a>
+</p>
+<p>
+  <a href="https://github.com/LukasEly/floating-point-unit-verilog"><img src="assets/card-fpu.svg" width="49%" alt="floating-point-unit-verilog: unidade de ponto flutuante IEEE 754 em Verilog"></a>
+  <a href="https://github.com/LukasEly/dlp-diffie-hellman"><img src="assets/card-dlp.svg" width="49%" alt="dlp-diffie-hellman: ataques ao logaritmo discreto em C e GMP"></a>
+</p>
 
-**Linguagens:** C, C++, VHDL, Verilog, Python, Rust, TypeScript, Go
-**Hardware e EDA:** Vivado, ModelSim/Questa, Cadence Genus/Modus/Innovus, FPGAs Artix-7, STM32F4, RISC-V (HF-RISC)
-**Sistemas:** Linux, Buildroot, QEMU, UCX/OS, CoOS
-**Ferramentas:** Git, Make, CMake, Tauri, LaTeX
+## Tecnologias
 
-### Projetos em destaque
+<img src="assets/stack.svg" width="100%" alt="Linguagens: C, C++, VHDL, Verilog, Python, Rust, TypeScript, Go. Hardware e EDA: Vivado, ModelSim, Cadence Genus, Modus, Artix-7, STM32F4, RISC-V. Sistemas: Linux, Buildroot, QEMU, UCX/OS, CoOS, MQTT. Ferramentas: Git, Make, CMake, Tauri, LaTeX.">
 
-| Projeto | Descrição |
-|---|---|
-| [hf-risc-vga-breakout](https://github.com/LukasEly/hf-risc-vga-breakout) | Jogo Breakout com saída VGA rodando num SoC RISC-V em FPGA |
-| [mips-multicycle-cache-vhdl](https://github.com/LukasEly/mips-multicycle-cache-vhdl) | Processador MIPS multiciclo em VHDL com cache L1 e comparação de desempenho |
-| [stm32-dht-mqtt-gateway](https://github.com/LukasEly/stm32-dht-mqtt-gateway) | Nó IoT no STM32F4 com sensores, PWM, relés e MQTT sob UCX/OS |
-| [stm32-serial-protocol-coos](https://github.com/LukasEly/stm32-serial-protocol-coos) | Protocolo serial com framing entre PC e STM32F4 sob CoOS |
-| [floating-point-unit-verilog](https://github.com/LukasEly/floating-point-unit-verilog) | Unidade de ponto flutuante IEEE 754 de 32 bits em Verilog |
-| [dlp-diffie-hellman](https://github.com/LukasEly/dlp-diffie-hellman) | Ataques ao logaritmo discreto em Diffie-Hellman com 5 métodos em C e GMP |
+<br>
 
-Os demais trabalhos da graduação estão na aba [Repositórios](https://github.com/LukasEly?tab=repositories).
+<sub>Os demais trabalhos da graduação estão na aba <a href="https://github.com/LukasEly?tab=repositories">Repositórios</a>.</sub>
