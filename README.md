@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/monitor.svg" width="100%" alt="Diário de bordo do Lukas: café 92%, rumo firme, bugs ao mar, maré ao vivo.">
+  <img src="assets/map.svg" width="100%" alt="Mapa da rota do Lukas: PUCRS em 2022, estágio em 2025, formatura em dezembro de 2026 e um X marcando a próxima aventura.">
 </p>
 
 <p align="center">
