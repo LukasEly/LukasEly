@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/monitor.svg" width="100%" alt="Painel de brincadeira monitorando o Lukas: café 92%, foco em alta, bugs sob controle, sinal de vida ao vivo.">
+  <img src="assets/monitor.svg" width="100%" alt="Diário de bordo do Lukas: café 92%, rumo firme, bugs ao mar, maré ao vivo.">
 </p>
 
 <p align="center">
