@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="880" height="360" role="img" aria-label="LUKAS. Sim, é com K.">
+<style>
+  .k { transform-box: fill-box; transform-origin: center; animation: wob 2.8s ease-in-out infinite; }
+  @keyframes wob { 0%,100% { transform: rotate(-5deg); } 50% { transform: rotate(4deg) scale(1.04); } }
+  @media (prefers-reduced-motion: reduce) { .k { animation: none; transform: rotate(-5deg); } }
+</style>
+<rect width="880" height="360" rx="20" fill="#ffd60a"/>
+<text x="56" y="240" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="190" fill="#111" textLength="262" lengthAdjust="spacingAndGlyphs">LU</text>
+<g class="k">
+  <rect x="332" y="78" width="176" height="186" rx="14" fill="#111"/>
+  <text x="420" y="240" text-anchor="middle" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="190" fill="#ffd60a" textLength="140" lengthAdjust="spacingAndGlyphs">K</text>
+</g>
+<text x="524" y="240" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="190" fill="#111" textLength="300" lengthAdjust="spacingAndGlyphs">AS</text>
+<text x="60" y="312" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" fill="#111">sim, é com K.</text>
+</svg>

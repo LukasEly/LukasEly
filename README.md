@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/chip.svg" width="100%" alt="Lukas Ely desenhado como um circuito integrado. Entram café, ideias, bugs e datasheets. Saem firmware, FPGA, IoT e RTOS.">
+  <img src="assets/com-k.svg" width="100%" alt="LUKAS. Sim, é com K.">
 </p>
 
 <p align="center">
