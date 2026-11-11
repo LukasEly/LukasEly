@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="Mapa da rota do Lukas: PUCRS em 2022, estágio em 2025, formatura em dezembro de 2026 e um X marcando a próxima aventura.">
+<style>
+  .route { animation: march 1.6s linear infinite; }
+  .x { transform-box: fill-box; transform-origin: center; animation: pulse 1.6s ease-in-out infinite; }
+  @keyframes march { to { stroke-dashoffset: -28; } }
+  @keyframes pulse { 50% { transform: scale(1.25); } }
+  @media (prefers-reduced-motion: reduce) { .route, .x { animation: none; } }
+</style>
+<rect width="880" height="300" rx="20" fill="#0B0B0F"/>
+<rect x="10" y="10" width="860" height="280" rx="13" fill="none" stroke="#FFD60A" stroke-width="1.5" stroke-dasharray="2 7" opacity="0.6"/>
+<text x="40" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="700" fill="#FFD60A" letter-spacing="2">MAPA DA ROTA</text>
+<text x="840" y="52" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#CFE0FF">rumo: próxima aventura</text>
+<path d="M190 96 q8 -7 16 0 t16 0" fill="none" stroke="#1447E6" stroke-width="2.4" stroke-linecap="round"/><path d="M250 118 q8 -7 16 0 t16 0" fill="none" stroke="#1447E6" stroke-width="2.4" stroke-linecap="round"/><path d="M450 250 q8 -7 16 0 t16 0" fill="none" stroke="#1447E6" stroke-width="2.4" stroke-linecap="round"/><path d="M500 228 q8 -7 16 0 t16 0" fill="none" stroke="#1447E6" stroke-width="2.4" stroke-linecap="round"/><path d="M680 96 q8 -7 16 0 t16 0" fill="none" stroke="#1447E6" stroke-width="2.4" stroke-linecap="round"/><path d="M730 262 q8 -7 16 0 t16 0" fill="none" stroke="#1447E6" stroke-width="2.4" stroke-linecap="round"/><path d="M60 120 q8 -7 16 0 t16 0" fill="none" stroke="#1447E6" stroke-width="2.4" stroke-linecap="round"/><path d="M420 110 q8 -7 16 0 t16 0" fill="none" stroke="#1447E6" stroke-width="2.4" stroke-linecap="round"/>
+<path id="route" class="route" d="M96 206 C 190 120, 250 250, 350 178 S 500 96, 590 166 S 720 236, 792 128" fill="none" stroke="#FFD60A" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="4 10"/>
+
+<ellipse cx="96" cy="212" rx="46" ry="17" fill="#1447E6"/>
+<path d="M62 210 q10 -24 34 -22 q26 -2 34 22 z" fill="#FFF6D6"/>
+<path d="M98 190 v-22 M98 168 q-14 -6 -20 4 M98 168 q14 -8 22 2 M98 168 q-2 -14 -14 -14 M98 168 q6 -14 16 -10" fill="none" stroke="#22E07A" stroke-width="3" stroke-linecap="round"/>
+<text x="96" y="250" text-anchor="middle" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="18" fill="#FFF6D6">PUCRS</text>
+<text x="96" y="268" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#FFD60A">2022</text>
+<ellipse cx="350" cy="184" rx="46" ry="17" fill="#1447E6"/>
+<path d="M316 182 q10 -24 34 -22 q26 -2 34 22 z" fill="#FFF6D6"/>
+<path d="M352 162 v-22 M352 140 q-14 -6 -20 4 M352 140 q14 -8 22 2 M352 140 q-2 -14 -14 -14 M352 140 q6 -14 16 -10" fill="none" stroke="#22E07A" stroke-width="3" stroke-linecap="round"/>
+<text x="350" y="222" text-anchor="middle" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="18" fill="#FFF6D6">estágio</text>
+<text x="350" y="240" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#FFD60A">2025</text>
+<ellipse cx="590" cy="172" rx="46" ry="17" fill="#1447E6"/>
+<path d="M556 170 q10 -24 34 -22 q26 -2 34 22 z" fill="#FFF6D6"/>
+<path d="M592 150 v-22 M592 128 q-14 -6 -20 4 M592 128 q14 -8 22 2 M592 128 q-2 -14 -14 -14 M592 128 q6 -14 16 -10" fill="none" stroke="#22E07A" stroke-width="3" stroke-linecap="round"/>
+<text x="590" y="210" text-anchor="middle" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="18" fill="#FFF6D6">formatura</text>
+<text x="590" y="228" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" fill="#FFD60A">dez/2026</text>
+<g class="x"><path d="M778 114 l28 28 M806 114 l-28 28" stroke="#FF3355" stroke-width="8" stroke-linecap="round"/></g>
+<text x="792" y="176" text-anchor="middle" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="18" fill="#FFF6D6">???</text>
+<g>
+  <path d="M-16 4 h32 l-7 10 h-18 z" fill="#FFF6D6"/>
+  <path d="M0 2 v-26" stroke="#FFF6D6" stroke-width="2.4"/>
+  <path d="M2 -24 l15 22 h-15 z" fill="#FF3355"/>
+  <path d="M-2 -20 l-11 18 h11 z" fill="#FFF6D6"/>
+  <animateMotion dur="11s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.9;1" calcMode="linear"><mpath xlink:href="#route" href="#route"/></animateMotion>
+</g>
+</svg>
