@@ -8,15 +8,15 @@
   @media (prefers-reduced-motion: reduce) { .k { animation: none; transform: rotate(-5deg); } .w1, .w2 { animation: none; } }
 </style>
 <g clip-path="url(#r)">
-<rect width="880" height="360" fill="#f3e2b8"/>
-<text x="56" y="226" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="190" fill="#0f2a47" textLength="262" lengthAdjust="spacingAndGlyphs">LU</text>
+<rect width="880" height="360" fill="#F4E4BC"/>
+<text x="56" y="226" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="190" fill="#0A1F3C" textLength="262" lengthAdjust="spacingAndGlyphs">LU</text>
 <g class="k">
-  <rect x="332" y="64" width="176" height="186" rx="14" fill="#d7263d"/>
-  <text x="420" y="226" text-anchor="middle" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="190" fill="#f3e2b8" textLength="140" lengthAdjust="spacingAndGlyphs">K</text>
+  <rect x="332" y="64" width="176" height="186" rx="14" fill="#D62828"/>
+  <text x="420" y="226" text-anchor="middle" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="190" fill="#F4E4BC" textLength="140" lengthAdjust="spacingAndGlyphs">K</text>
 </g>
-<text x="524" y="226" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="190" fill="#0f2a47" textLength="300" lengthAdjust="spacingAndGlyphs">AS</text>
-<text x="60" y="282" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" fill="#0f2a47">sim, é com K.</text>
+<text x="524" y="226" font-family="'Arial Black', 'Segoe UI Black', 'Helvetica Neue', Inter, Arial, sans-serif" font-weight="900" font-size="190" fill="#0A1F3C" textLength="300" lengthAdjust="spacingAndGlyphs">AS</text>
+<text x="60" y="282" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="20" font-weight="700" fill="#0A1F3C">sim, é com K.</text>
 <path class="w1" d="M-110 318 Q-82.5 302 -55.0 318 T0 318 Q27.5 302 55.0 318 T110 318 Q137.5 302 165.0 318 T220 318 Q247.5 302 275.0 318 T330 318 Q357.5 302 385.0 318 T440 318 Q467.5 302 495.0 318 T550 318 Q577.5 302 605.0 318 T660 318 Q687.5 302 715.0 318 T770 318 Q797.5 302 825.0 318 T880 318 Q907.5 302 935.0 318 T990 318 Q1017.5 302 1045.0 318 T1100 318 Q1127.5 302 1155.0 318 T1210 318 V360 H-110 Z" fill="#2f6f9f"/>
-<path class="w2" d="M-110 334 Q-82.5 322 -55.0 334 T0 334 Q27.5 322 55.0 334 T110 334 Q137.5 322 165.0 334 T220 334 Q247.5 322 275.0 334 T330 334 Q357.5 322 385.0 334 T440 334 Q467.5 322 495.0 334 T550 334 Q577.5 322 605.0 334 T660 334 Q687.5 322 715.0 334 T770 334 Q797.5 322 825.0 334 T880 334 Q907.5 322 935.0 334 T990 334 Q1017.5 322 1045.0 334 T1100 334 Q1127.5 322 1155.0 334 T1210 334 V360 H-110 Z" fill="#0f2a47"/>
+<path class="w2" d="M-110 334 Q-82.5 322 -55.0 334 T0 334 Q27.5 322 55.0 334 T110 334 Q137.5 322 165.0 334 T220 334 Q247.5 322 275.0 334 T330 334 Q357.5 322 385.0 334 T440 334 Q467.5 322 495.0 334 T550 334 Q577.5 322 605.0 334 T660 334 Q687.5 322 715.0 334 T770 334 Q797.5 322 825.0 334 T880 334 Q907.5 322 935.0 334 T990 334 Q1017.5 322 1045.0 334 T1100 334 Q1127.5 322 1155.0 334 T1210 334 V360 H-110 Z" fill="#0A1F3C"/>
 </g>
 </svg>
