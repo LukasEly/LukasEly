@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="880" height="460" role="img" aria-labelledby="t d">
+<title id="t">Lukas Ely</title>
+<desc id="d">Lukas Ely desenhado como um circuito integrado. Entram café, ideias, bugs e datasheets. Saem firmware, FPGA, IoT e RTOS.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111c33"/><stop offset="1" stop-color="#0b1220"/></linearGradient>
+  <linearGradient id="chip" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#18233d"/><stop offset="1" stop-color="#0d1526"/></linearGradient>
+  <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#1e2b47" stroke-width="0.6"/></pattern>
+</defs>
+<style>
+  .pulse { animation: run 2.2s linear infinite; }
+  .led { animation: blink 1.4s steps(2) infinite; }
+  @keyframes run { to { stroke-dashoffset: 0; } }
+  @keyframes blink { 50% { opacity: 0.15; } }
+  @media (prefers-reduced-motion: reduce) { .pulse, .led { animation: none; } }
+</style>
+<rect width="880" height="460" rx="18" fill="url(#bg)"/>
+<rect width="880" height="460" rx="18" fill="url(#grid)" opacity="0.5"/>
+<rect x="0.5" y="0.5" width="879" height="459" rx="17.5" fill="none" stroke="#1e2b47"/>
+
+<text x="140" y="92" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#5ad1e6" letter-spacing="2">IN</text>
+<text x="740" y="92" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#f2b84b" letter-spacing="2">OUT</text>
+
+<!-- alimentação -->
+<path d="M440 60 V108" stroke="#1e2b47" stroke-width="2"/>
+<rect x="434" y="108" width="12" height="12" rx="2" fill="#8fa0bf"/>
+<text x="440" y="50" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8fa0bf">3V3</text>
+<rect x="434" y="340" width="12" height="12" rx="2" fill="#8fa0bf"/>
+<path d="M440 352 V396 M426 396 H454 M431 402 H449 M436 408 H444" stroke="#8fa0bf" stroke-width="1.6" fill="none"/>
+
+<text x="136" y="161" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#e8edf7">café</text>
+<circle cx="150" cy="156" r="4" fill="#0b1220" stroke="#5ad1e6" stroke-width="1.6"/>
+<path d="M154 156 H276" stroke="#1e2b47" stroke-width="2"/>
+<path class="pulse" style="animation-delay:0.00s" d="M154 156 H276" stroke="#5ad1e6" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="16 166" stroke-dashoffset="142"/>
+<rect x="276" y="150" width="14" height="12" rx="2" fill="#8fa0bf"/>
+<text x="158" y="211" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#e8edf7">ideias</text>
+<circle cx="172" cy="206" r="4" fill="#0b1220" stroke="#5ad1e6" stroke-width="1.6"/>
+<path d="M176 206 H276" stroke="#1e2b47" stroke-width="2"/>
+<path class="pulse" style="animation-delay:0.45s" d="M176 206 H276" stroke="#5ad1e6" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="16 144" stroke-dashoffset="120"/>
+<rect x="276" y="200" width="14" height="12" rx="2" fill="#8fa0bf"/>
+<text x="136" y="261" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#e8edf7">bugs</text>
+<circle cx="150" cy="256" r="4" fill="#0b1220" stroke="#5ad1e6" stroke-width="1.6"/>
+<path d="M154 256 H276" stroke="#1e2b47" stroke-width="2"/>
+<path class="pulse" style="animation-delay:0.90s" d="M154 256 H276" stroke="#5ad1e6" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="16 166" stroke-dashoffset="142"/>
+<rect x="276" y="250" width="14" height="12" rx="2" fill="#8fa0bf"/>
+<text x="158" y="311" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#e8edf7">datasheets</text>
+<circle cx="172" cy="306" r="4" fill="#0b1220" stroke="#5ad1e6" stroke-width="1.6"/>
+<path d="M176 306 H276" stroke="#1e2b47" stroke-width="2"/>
+<path class="pulse" style="animation-delay:1.35s" d="M176 306 H276" stroke="#5ad1e6" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="16 144" stroke-dashoffset="120"/>
+<rect x="276" y="300" width="14" height="12" rx="2" fill="#8fa0bf"/>
+<rect x="590" y="150" width="14" height="12" rx="2" fill="#8fa0bf"/>
+<path d="M604 156 H726" stroke="#1e2b47" stroke-width="2"/>
+<path class="pulse" style="animation-delay:0.90s" d="M604 156 H726" stroke="#f2b84b" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="16 162" stroke-dashoffset="138"/>
+<circle cx="730" cy="156" r="4" fill="#0b1220" stroke="#f2b84b" stroke-width="1.6"/>
+<text x="744" y="161" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#e8edf7">firmware</text>
+<rect x="590" y="200" width="14" height="12" rx="2" fill="#8fa0bf"/>
+<path d="M604 206 H704" stroke="#1e2b47" stroke-width="2"/>
+<path class="pulse" style="animation-delay:1.35s" d="M604 206 H704" stroke="#f2b84b" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="16 140" stroke-dashoffset="116"/>
+<circle cx="708" cy="206" r="4" fill="#0b1220" stroke="#f2b84b" stroke-width="1.6"/>
+<text x="722" y="211" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#e8edf7">FPGA</text>
+<rect x="590" y="250" width="14" height="12" rx="2" fill="#8fa0bf"/>
+<path d="M604 256 H726" stroke="#1e2b47" stroke-width="2"/>
+<path class="pulse" style="animation-delay:1.80s" d="M604 256 H726" stroke="#f2b84b" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="16 162" stroke-dashoffset="138"/>
+<circle cx="730" cy="256" r="4" fill="#0b1220" stroke="#f2b84b" stroke-width="1.6"/>
+<text x="744" y="261" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#e8edf7">IoT</text>
+<rect x="590" y="300" width="14" height="12" rx="2" fill="#8fa0bf"/>
+<path d="M604 306 H704" stroke="#1e2b47" stroke-width="2"/>
+<path class="pulse" style="animation-delay:2.25s" d="M604 306 H704" stroke="#f2b84b" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="16 140" stroke-dashoffset="116"/>
+<circle cx="708" cy="306" r="4" fill="#0b1220" stroke="#f2b84b" stroke-width="1.6"/>
+<text x="722" y="311" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#e8edf7">RTOS</text>
+
+<!-- corpo do chip -->
+<rect x="290" y="120" width="300" height="220" rx="14" fill="url(#chip)" stroke="#8fa0bf" stroke-width="1.6"/>
+<path d="M426 120 a14 14 0 0 0 28 0" fill="#0b1220" stroke="#8fa0bf" stroke-width="1.6"/>
+<circle cx="312" cy="144" r="4" fill="none" stroke="#8fa0bf" stroke-width="1.4"/>
+<text x="440" y="226" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#e8edf7" letter-spacing="-1">Lukas Ely</text>
+<text x="440" y="258" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8fa0bf" letter-spacing="1">ENG. COMPUTAÇÃO · PUCRS</text>
+<text x="312" y="320" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8fa0bf">LE-2026 rev. A</text>
+<circle class="led" cx="566" cy="316" r="4.5" fill="#f2b84b"/>
+</svg>
