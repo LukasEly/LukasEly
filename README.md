@@ -3,10 +3,6 @@
 </p>
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/map.svg"><img src="assets/map.svg" width="100%" alt="Mapa da rota do Lukas: PUCRS em 2022, estágio em 2025, formatura em dezembro de 2026 e um X marcando a próxima aventura."></picture>
-</p>
-
-<p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/terminal.svg"><img src="assets/terminal.svg" width="100%" alt="Terminal: lukas, engenharia de computação na PUCRS, último semestre com formatura em dezembro de 2026, interessado em embarcados, FPGA, IoT, eletrônica DIY e autômatos, procurando a próxima aventura."></picture>
 </p>
 
