@@ -1,0 +1,36 @@
+# Gera a animação da cobrinha comendo o gráfico de contribuições
+# Roda todo dia, a cada push na main e sob demanda (aba Actions)
+name: snake
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  push:
+    branches: [main]
+    paths-ignore: ["assets/**", "README.md"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # paleta do perfil: azul no tema claro, amarelo no escuro
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#FF3355&color_dots=#E8EEFF,#B9CCFF,#7C9DFF,#3F6BF2,#1447E6
+            dist/snake-dark.svg?palette=github-dark&color_snake=#FF3355&color_dots=#16171D,#3D3410,#7A6413,#C9A40C,#FFD60A
+
+      # publica os SVGs na branch "output" (o README aponta para lá)
+      - uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
